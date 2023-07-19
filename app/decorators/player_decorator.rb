@@ -1,5 +1,5 @@
 module PlayerDecorator 
   def full_name
-    "#{firstname}, #{lastname}"
+    "#{firstname} #{lastname}"
   end
 end     

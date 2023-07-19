@@ -30,7 +30,7 @@ describe 'Club CRUD functions', type: :system do
         end
 
         it 'The full name of the player is displayed correctly' do
-          expect(page).to have_content 'Taro, Tanaka'
+          expect(page).to have_content 'Taro Tanaka'
         end
 
         it 'The average age of the players is displayed correctly' do
