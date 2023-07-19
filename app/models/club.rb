@@ -58,4 +58,8 @@ class Club < ApplicationRecord
   def homebase
     "#{hometown}, #{country}"
   end
+
+  def players_average_age
+    (players.sum(&:age) / players.length).to_f
+  end  
 end
